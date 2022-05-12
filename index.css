@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#landing_main{
+	background-image: url(./images/background_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 8px 8px black inset;
+}
+
+#project_main{
+	background-color: black;
+}
+
+#contact_main{
+	background-color: darkgray;
+}
+
+#contact_section{
+	background-color: black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+.footer_icons {
+  display: flex;
+  align-items: flex-center;
+  justify-content: center;
+}
+
+.footer_icons > img {
+  margin: 5px;
+}
